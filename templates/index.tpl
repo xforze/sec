@@ -17,67 +17,9 @@
 	<style>
 	</style>
 	<body>
-		<header class="dhx_sample-header">
-			<div class="dhx_sample-header__main">
-				<nav class="dhx_sample-header__breadcrumbs">
-					<ul class="dhx_sample-header-breadcrumbs">
-						<li class="dhx_sample-header-breadcrumbs__item">
-							<a href="../../index.html" class="dhx_sample-header-breadcrumbs__link">Suite samples</a>
-						</li>
-						<li class="dhx_sample-header-breadcrumbs__item">
-							<a href="../index.html" class="dhx_sample-header-breadcrumbs__link">Layout samples</a>
-						</li>
-						<li class="dhx_sample-header-breadcrumbs__item">
-							<a href="./index.html" class="dhx_sample-header-breadcrumbs__link">Initialization</a>
-						</li>
-						<li class="dhx_sample-header-breadcrumbs__item">
-							<span class="dhx_sample-header-breadcrumbs__link">Basic initialization</span>
-						</li>
-					</ul>
-				</nav>
-				<h1 class="dhx_sample-header__title">
-					<div class="dhx_sample-header__content">
-						Basic initialization description.
-					</div>
-				</h1>
-			</div>
-</header>
 		<div class="dhx_sample-container__widget" id="layout"></div>
 		<script>
-			var config = {
-				type: "line",
-				rows: [
-					{
-						id: "toolbar",
-						html: "Header",
-						height: "60px"
-					},
-					{
-						cols: [
-							{
-								id: "sidebar",
-								html: "Sidebar",
-								width: "200px"
-							},
-							{
-								id: "content",
-								html: "Content"
-							},
-							{
-								id: "rightbar",
-								html: "Aside",
-								width: "200px"
-							},
-						]
-					},
-					{
-						id: "footer",
-						html: "Footer",
-						height: "60px"
-					}
-				]
-			};
-			var layout = new dhx.Layout("layout", config);
+
 		</script>
 	</body>
 </html>

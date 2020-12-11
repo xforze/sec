@@ -1,0 +1,11 @@
+{
+  "namespaces": [
+    "developer1",
+    "qa1",
+    "prod1"
+  ],
+  "defaults": [
+    "namespacequota",
+    "limitrange"
+  ]
+}
